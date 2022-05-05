@@ -1,4 +1,5 @@
 #me{
+    position: absolute;
     opacity: 30%;
     width: 100%;
     z-index: 1;
