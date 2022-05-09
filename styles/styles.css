@@ -1,6 +1,34 @@
+.fakebody{
+    position: absolute;
+    max-width: 75%;
+}
 #me{
     position: absolute;
     opacity: 30%;
     width: 100%;
     z-index: 1;
+}
+#title-and-sub {
+    background-color: mediumturquoise;
+}
+#title-and-sub h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+#title-and-sub h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    padding-right: 58px;
+
+    
+}
+article{
+    float: left;
+}
+aside{
+    float: right;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
