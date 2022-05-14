@@ -1,5 +1,5 @@
-
-/* #me{
+/* 
+#me{
     position: absolute;
     opacity: 30%;
     width: 100%;
@@ -14,34 +14,47 @@ body{
 }
 #title-and-sub {
     width: 75%;
+    height: 189px;
     margin: auto;
+    padding-top: 69px;
     color: #FFFFFF;
 
 }
 #title-and-sub h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: xxx-large;
+    margin-block: unset;
 
 }
 #title-and-sub h3{
-    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 22px;
+    padding-top: 15px;
+    width: 310px;
+    margin-block: unset;
 
 }
 .head-nav{
     background-color: #EBEBEB;
-    font-family: Arial, Helvetica, sans-serif;
-    height: fit-content;
+    height: 65px;
 }
 .head-nav ul{
     width: 75%;
     margin: auto;
-    list-style: none;
+    padding: unset;
+    padding-top: 23px;
+}
+li{
+    text-decoration: none;
 }
 .head-nav ul li{
     display: inline;
+
 }
+.head-nav ul li + li::before{
+    content: " / ";
+    padding: 0 10px;
+}
+
 .main{
     width: 75%;
     margin: auto;
@@ -70,9 +83,7 @@ aside{
 .side-img{
     display: table-header-group;
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 footer{
     height: 263px;
     background-color: #3A3A3A;
@@ -92,6 +103,9 @@ footer{
 .foot-nav ul li{
     list-style: none;
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;
 
+}
+.foot-nav ul li + li::before{
+    content: " / ";
+    padding: 0 10px;
 }
