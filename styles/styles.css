@@ -71,7 +71,7 @@ li{
 }
 blockquote{
     display: table-header-group;
-    color: #52BAD5;
+    color: #239AB9;
 }
 
 aside{
@@ -108,4 +108,12 @@ footer{
 .foot-nav ul li + li::before{
     content: " / ";
     padding: 0 10px;
+}
+.skipper {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+.skipper:focus{
+    left: 0;
 }
